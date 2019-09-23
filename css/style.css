@@ -1,0 +1,307 @@
+/*Basic Information of the Designer*/
+/**********************************/
+/*Name:Shouvik Rahman
+Email Address:shouvik129353@gmai.com
+website:xyz.com*/
+
+/*Index*/
+/*******************************/
+/*
+1.Global CSS
+2. CSS for Fusce At Section (Hero Section)
+3. CSS for Fasilisis Section
+4. CSS for Blandit Section
+5. CSS for Ante Section
+6. CSS for Placerat Section
+7. CSS for edning section
+*/
+
+/* 1. Global CSS*/
+/********************************/
+h2{
+    font-size:72px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+}
+
+h3{
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+}
+
+h4{
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    color:whitesmoke;
+}
+
+p{
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
+    color:whitesmoke;
+}
+
+.btn{
+    display:block;
+    margin:70px auto 117px;
+    background-color:white;
+    color:black;
+    border-radius:20px;
+    padding:8px 30px;
+    transition:0.3s ease;
+    border:none;    
+}
+
+.btn:hover{
+    background-color:#dd4b2b;
+    color:white;
+
+}
+
+.fa.fa-home{
+    color:#dd4b2b;
+    background-color:#edeff1;
+}
+
+/****************************/
+/*End of Global CSS Section*/
+
+/* 2. CSS for Fusce At Section (Hero Section)*/
+/******************************/
+.nav-head{
+    background-color: #edeff1;
+    margin:0 auto;
+    padding:40px auto 40px;
+    height:113px; 
+}
+.nav-item{
+    margin:5px;
+}
+.nav-link{
+    font-family: 'Roboto Slab', serif;
+    color:#161616 !important;
+    margin:5px;
+}
+
+
+.nav-link.js-scroll-trigger.active{
+    background-color:#dd4b2b;
+    border:none;
+    border-radius:20px;
+    padding:5px 15px;
+    color:white !important;
+}
+
+
+.hero-section{
+    background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../img/hero-image.png) center top;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.hero-one{
+    margin-top:470px;
+    margin-bottom:100px;
+
+}
+
+.hero-img{
+    margin-bottom:25px;
+}
+
+.btn-cstm{
+    display:block;
+    margin:70px auto 117px;
+    background-color:white;
+    color:maroon;
+    border-radius:20px;
+    padding:5px 30px;
+    transition:0.3s ease;
+    border:none;
+}
+
+.btn-cstm:hover{
+    background-color:#dd4b2b;
+    color:white;
+
+}
+/*******************************/
+/*End of the Fusce At Section (Hero Section)*/
+
+/* 3. CSS for Fasilisis Section*/
+/*********************************/
+
+.facilisis{
+    background-color: #edeff1;
+}
+
+.facilisis h3{
+    color:black;
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    margin-top:77px;
+    margin-bottom:74px;
+}
+
+.facilisis-content h4{
+    font-size:24px;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+
+}
+
+.facilisis-content p{
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+}
+
+/**********************************/
+/* End of the Fasilisis Section*/
+
+
+
+/* 4. CSS for Ante Section*/
+/**********************************/
+.news-img{
+    margin-bottom:37px;
+}
+
+.ante{
+    background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/news-image-1.png) center top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.form-info{
+    margin-top:38px;
+    color:white;
+}
+
+.form-info-content {
+    background-color: rgba(255,255,255,0.25);
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 13px 28px;
+}
+.form-info-submit {
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+    color: maroon;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 14px 36px;
+    position: absolute;
+    top: 71.5%;
+    left: 58%;
+    transition: 0.3s ease;
+}
+
+.form-info-submit:hover{
+    background-color: #dd4b2b;
+    color: white;
+}
+
+/**********************************/
+/*End of the Ante Section*/
+
+
+/* 5. CSS for Blandit Section*/
+/**********************************/
+
+.blandit-content h3{
+    color:black;
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    margin-top:118px;
+    margin-bottom:31px;
+}
+
+.blandit-content p{
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+}
+
+.blandit-content img{
+    margin-top: 54px;
+    width:547px;
+    height:410px;
+}
+
+.btm{
+    background-color: #dd4b2b;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 14px 36px;
+    transition: 0.3s ease-in;
+}
+
+.btm:hover{
+    background-color:white;
+    color:  #dd4b2b;
+    border:0.5px solid  #dd4b2b;
+}
+.btmone{
+    background-color: #4b4e73;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 14px 36px;
+    transition: 0.3s ease-in;
+}
+.btmone:hover{
+    background-color:white;
+    color:  #4b4e73;
+    border:0.5px solid  #4b4e73;
+}
+
+/**********************************/
+/*End of the Blandit Section*/
+
+
+/* 6. CSS for the Placerat Section*/
+/**********************************/
+.placerat{
+    background-color: #d75d0e;
+}
+
+/**********************************/
+/*End of the Placerat Section*/
+
+
+/*CSS for the end section*/
+/**********************************/
+.end{
+    background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/footer-image.png) center top;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.end-content {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 11px;
+}
+
+/**********************************/
+/*End of the end section*/
+
+
+
+/* Media Query */
